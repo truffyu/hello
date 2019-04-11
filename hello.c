@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main()
-{
-printf("hello world");
+{char c[50];
+scanf("%s",c);
+printf("hello %s", c); 
 return 0;
 }
 
